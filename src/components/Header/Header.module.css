@@ -83,3 +83,101 @@
 color: inherit;
   }
 
+
+  .aeroplane{
+    position: absolute;
+    background-image: url('https://www.dl.dropboxusercontent.com/s/5beukq1zg37jlr7/airbus.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 70px;
+    -webkit-animation: movingplane 10s linear infinite;
+  -moz-animation: movingplane 10s linear infinite;
+    -o-animation: movingplane 10s linear infinite;
+}
+
+
+
+@keyframes movingplane {
+  0% { 
+        margin-left: 100%;
+        top:300px;
+    }
+    29% { 
+        margin-left: 50%; 
+        top: 50px; 
+        -webkit-transform: rotate(20deg);
+      -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+      transform: rotate(20deg);
+    }
+    31% {
+        -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+    }
+    60% {
+        margin-left: 0%; 
+        top:300px;   
+    }
+    100% {
+        margin-left: -100%;
+        top: 300px;
+    }
+}
+@-webkit-keyframes movingplane {
+  0% { 
+        margin-left: 100%;
+        top:300px;
+    }
+    29% { 
+        margin-left: 50%; 
+        top: 50px; 
+        -webkit-transform: rotate(20deg);
+      -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+      transform: rotate(20deg);
+    }
+    31% {
+        -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+    }
+    60% {
+        margin-left: 0%; 
+        top:300px;    
+    }
+    100% {
+        margin-left: -100%;
+        top: 300px;
+    }
+}
+@-moz-keyframes movingplane {
+  0% { 
+        margin-left: 100%;
+        top:300px;
+    }
+    29% { 
+        margin-left: 50%; 
+        top: 50px; 
+        -webkit-transform: rotate(20deg);
+      -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+      transform: rotate(20deg);
+    }
+    31% {
+        -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+    }
+    60% {
+        margin-left: 0%; 
+        top:300px;   
+    }
+    100% {
+        margin-left: -100%;
+        top: 300px;
+    }
+}

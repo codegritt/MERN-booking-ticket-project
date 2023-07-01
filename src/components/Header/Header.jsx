@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import menuicon from "./Header.module.css";
 import travelLogo from "./Header.module.css";
+import aeroplane from "./Header.module.css";
 
 const Header = () => {
  
@@ -38,7 +39,7 @@ const Header = () => {
                   </span>
                 </div>
               </div>
-
+              <div className={aeroplane.aeroplane} ></div>   
               <div className={nav_right.nav_right}>
                 <div className={nav_buttons.nav_buttons}>
                   <button style={{borderRadius:"20px"}} type="button" class="btn btn-secondary">
@@ -53,9 +54,17 @@ const Header = () => {
                 <RiBarChartHorizontalLine/>
                 </span>
               </div>
+
+          
+       
+              <div className={aeroplane.aeroplane} ></div> 
+            
+  
+
             </div>
           </div>
         </div>
+        <div className={aeroplane.aeroplane} ></div> 
       </div>
     </>
   );
