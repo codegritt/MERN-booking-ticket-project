@@ -1,0 +1,37 @@
+.headername{
+    padding-top: 0;
+    padding: 30px;
+}
+
+
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.navigation{
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content:space-between ;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    right: 100px;
+
+}
+
+.nav_buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+

@@ -1,4 +1,4 @@
-
+import Layout from './components/Layout/Layout.jsx'
 import './App.css'
 
 function App() {
@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>
-      
+      <Layout/>
+  
     </>
   )
 }
