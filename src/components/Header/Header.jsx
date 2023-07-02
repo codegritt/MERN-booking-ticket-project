@@ -28,13 +28,13 @@ const Header = () => {
 
               <div className={navigation.navigation}>
                 <div className={menu.menu}>
-                  <span className={menua.menua} style={{ marginRight: "40px" }}>
+                  <span className={menua.menua} style={{ marginRight: "40px",color:"white" }}>
                     <Link to="/home">Home</Link>
                   </span>
-                  <span className={menua.menua} style={{ marginRight: "40px" }}>
+                  <span className={menua.menua} style={{ marginRight: "40px",color:"white" }}>
                     <Link to="#">About</Link>
                   </span>
-                  <span className={menua.menua}>
+                  <span className={menua.menua}  style={{ color:"white" }}>
                     <Link to="/tours">Tours</Link>
                   </span>
                 </div>
@@ -45,7 +45,7 @@ const Header = () => {
                   <button style={{borderRadius:"20px"}} type="button" class="btn btn-secondary">
                     <Link to="/login">Login</Link>
                   </button>
-                  <button  style={{borderRadius:"20px"}} type="button" class="btn btn-warning">
+                  <button  style={{borderRadius:"20px",color:"white",backgroundColor:"#ff9a33"}} type="button" class="btn btn-warning">
                     <Link to="/register">Register</Link>
                   </button>
                 </div>

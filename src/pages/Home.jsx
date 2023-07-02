@@ -12,16 +12,16 @@ import heroimgboxmod from "../pages/Home.module.css";
 import { motion } from "framer-motion";
 import { slideIn } from "../Utils/motion";
 import EarthCanvas from "../components/Canvas/Earth";
-import heroImg from "../assets/images/hero-img01.jpg";
-import heroImg1 from "../assets/images/hero-img02.jpg";
 import ReactPlayer from "react-player";
+import Searchbar from "../shared/Searchbar";
 
 const Home = () => {
-  const VIDEO_PATH = 'https://www.youtube.com/watch?v=qSyrF5oFXMk&ab_channel=DiegoNuila';
-
+  const VIDEO_PATH =
+    "https://www.youtube.com/watch?v=qSyrF5oFXMk&ab_channel=DiegoNuila";
 
   return (
     <>
+       
       <div className={herosubtitle.herosubtitle}>
         {/* <Subtitle subtitle={"Know before you go"} /> */}
         <div className={herosubtitlediv.herosubtitlediv}>
@@ -49,25 +49,36 @@ const Home = () => {
             <EarthCanvas />
           </motion.div>
         </div>
-<div className={heroimgboxmain.heroimgboxmain}>
-        <div className={heroimgbox.heroimgbox}>
+        <div className={heroimgboxmain.heroimgboxmain}>
+          {/* <div className={heroimgbox.heroimgbox}>
           <img className={heroimgboxmod.heroimgboxmod} src={heroImg} alt="" />
         </div>
 
         <div className={heroimgbox.heroimgbox}>
           <img className={heroimgboxmod.heroimgboxmod} src={heroImg1} alt="" />
-        </div>
+        </div> */}
 
-        <div className={heroimgbox.heroimgbox}>
-          {/* <video
+          <div className={heroimgbox.heroimgbox}>
+            {/* <video
             className={heroimgboxmod.heroimgboxmod}
             src='../../src/assets/images/hero-video.mp4'
             alt=""
           /> */}
-          <ReactPlayer  url={VIDEO_PATH} controls={true}/>
-        </div>
+            <ReactPlayer
+              width={500}
+              height={280}
+        
+              className={heroimgboxmod.heroimgboxmod}
+              url={VIDEO_PATH}
+              controls={true}
+            />
+          </div>
         </div>
       </div>
+      <div className={herosubtitle.herosubtitle}>
+      <Searchbar />
+      </div>
+     
     </>
   );
 };

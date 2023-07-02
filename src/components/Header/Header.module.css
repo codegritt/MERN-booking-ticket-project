@@ -1,7 +1,7 @@
 .headername{
     padding-top: 0;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: #5c636a;
     width: 100%;
     line-height: 80px;
     top: 0;
@@ -27,7 +27,9 @@
     gap: 5px;
     justify-content:space-between ;
     margin-bottom: 0;
+    color: white;
 }
+
 
 .nav_right{
     display: flex;

@@ -1,0 +1,36 @@
+.searchbarmod{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.searchbarmod2{
+    display: flex;
+    gap: 3px;
+}
+
+.searchbarmodh6{
+    color: white;
+}
+
+.searchbar{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    box-shadow: rgba(17,12, 46, 0.15) 0px 48px 100px 0px;
+    width: max-content;
+    margin-top: 50px;
+    background-color: #ff9a33;
+}
+
+.searchbarmodspan{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.searchicon{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    color: black;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+   
+}
