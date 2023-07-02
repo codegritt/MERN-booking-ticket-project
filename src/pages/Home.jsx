@@ -14,9 +14,12 @@ import { slideIn } from "../Utils/motion";
 import EarthCanvas from "../components/Canvas/Earth";
 import heroImg from "../assets/images/hero-img01.jpg";
 import heroImg1 from "../assets/images/hero-img02.jpg";
-import heroImg2 from "../assets/images/hero-video.mp4";
+import ReactPlayer from "react-player";
 
 const Home = () => {
+  const VIDEO_PATH = 'https://www.youtube.com/watch?v=qSyrF5oFXMk&ab_channel=DiegoNuila';
+
+
   return (
     <>
       <div className={herosubtitle.herosubtitle}>
@@ -56,11 +59,12 @@ const Home = () => {
         </div>
 
         <div className={heroimgbox.heroimgbox}>
-          <video
+          {/* <video
             className={heroimgboxmod.heroimgboxmod}
             src='../../src/assets/images/hero-video.mp4'
             alt=""
-          />
+          /> */}
+          <ReactPlayer  url={VIDEO_PATH} controls={true}/>
         </div>
         </div>
       </div>
