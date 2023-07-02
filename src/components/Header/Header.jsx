@@ -56,13 +56,14 @@ const Header = () => {
               </div>
 
           
-       
               <div className={aeroplane.aeroplane} ></div> 
+        
             
   
 
             </div>
           </div>
+   
         </div>
         <div className={aeroplane.aeroplane} ></div> 
       </div>

@@ -1,0 +1,43 @@
+.herosubtitle{
+    display: flex;
+    align-items: center;
+
+}
+
+.herosubtitleimg{
+    width: 100%;
+    height: 350px;
+    border: 2px solid red;
+    position: relative;
+    right: 60px;
+
+}
+
+.herosubtitleh1{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.herosubtitlep{
+    font-size: 0.85rem;
+ 
+}
+
+.herosubtitlediv{
+    border: 2px solid red;
+    width: 40%;
+    padding: 20px;
+}
+
+.highlight{
+    color: #ff9833;
+}
+
+.heroContent{
+    border: 2px solid red;
+    padding: 20px;
+    background-color: whitesmoke;
+}
