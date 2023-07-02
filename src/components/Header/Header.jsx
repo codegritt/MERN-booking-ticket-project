@@ -56,7 +56,7 @@ const Header = () => {
               </div>
 
           
-              <div className={aeroplane.aeroplane} ></div> 
+          
         
             
   
@@ -65,7 +65,7 @@ const Header = () => {
           </div>
    
         </div>
-        <div className={aeroplane.aeroplane} ></div> 
+      
       </div>
     </>
   );
